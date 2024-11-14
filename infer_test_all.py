@@ -1,16 +1,15 @@
 import argparse
 import functools
 import platform
-
+import os
 import torch
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline, AutoModelForCausalLM
-
 from utils.utils import print_arguments, add_arguments
 
 parser = argparse.ArgumentParser(description=__doc__)
 add_arg = functools.partial(add_arguments, argparser=parser)
-add_arg("audio_path",  type=str,  default="dataset_sage/test/record_1731485951.wav", help="预测的音频路径")
-add_arg("model_path",  type=str,  default="models_sage/whisper-tiny-finetune/", help="合并模型的路径，或者是huggingface上模型的名称")
+add_arg("audio_dir",  type=str,  default="dataset_sage/val/", help="预测的音频文件夹路径")
+add_arg("model_path",  type=str,  default="models_sage/whisper-large-finetune/", help="合并模型的路径，或者是huggingface上模型的名称")
 add_arg("use_gpu",     type=bool, default=True,      help="是否使用gpu进行预测")
 add_arg("language",    type=str,  default="chinese", help="设置语言，如果为None则预测的是多语言")
 add_arg("num_beams",   type=int,  default=1,         help="解码搜索大小")
@@ -69,8 +68,15 @@ infer_pipe = pipeline("automatic-speech-recognition",
 generate_kwargs = {"task": args.task, "num_beams": args.num_beams}
 if args.language is not None:
     generate_kwargs["language"] = args.language
-# 推理
-result = infer_pipe(args.audio_path, return_timestamps=True, generate_kwargs=generate_kwargs)
 
-for chunk in result["chunks"]:
-    print(f"[{chunk['timestamp'][0]}-{chunk['timestamp'][1]}s] {chunk['text']}")
+# 遍历目录中的所有wav文件进行推理
+audio_files = [f for f in os.listdir(args.audio_dir) if f.endswith('.wav')]
+for audio_file in audio_files:
+    audio_path = os.path.join(args.audio_dir, audio_file)
+    print(f"Processing {audio_file}...")
+
+    # 推理
+    result = infer_pipe(audio_path, return_timestamps=True, generate_kwargs=generate_kwargs)
+
+    for chunk in result["chunks"]:
+        print(f"[{chunk['timestamp'][0]}-{chunk['timestamp'][1]}s] {chunk['text']}")

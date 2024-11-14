@@ -7,3 +7,10 @@ dataset/*
 !dataset/test.wav
 !dataset/test_long.wav
 test.py
+/models_sage/
+/output_sage/
+*.wav
+/dataset_sage/test/*
+/dataset_sage/train/*
+/dataset_sage/val/*
+/dataset_sage.zip
