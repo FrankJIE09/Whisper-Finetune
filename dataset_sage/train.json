@@ -38,3 +38,9 @@
 {"audio": {"path": "dataset_sage/train/record_1731487173.wav"}, "sentence": "小飒你好", "duration": 2.56, "sentences": [{"start": 0, "end": 2.56, "text": "小飒你好"}]}
 {"audio": {"path": "dataset_sage/train/record_1731487176.wav"}, "sentence": "小飒你能做什么", "duration": 3.36, "sentences": [{"start": 0, "end": 3.36, "text": "小飒你能做什么"}]}
 {"audio": {"path": "dataset_sage/train/record_1731487181.wav"}, "sentence": "小飒我需要输液袋和注射器和三个口罩及一个手套", "duration": 7.38, "sentences": [{"start": 0, "end": 7.38, "text": "小飒我需要输液袋和注射器和三个口罩及一个手套"}]}
+{"audio":{"path":"dataset_sage/audio/record_1731565360.wav"},"sentence":"确认","duration":6.08,"sentences":[{"start":0,"end":6.08,"text":"确认"}]}
+{"audio":{"path":"dataset_sage/audio/record_1731565370.wav"},"sentence":"确认","duration":4.99,"sentences":[{"start":0,"end":4.99,"text":"确认"}]}
+{"audio":{"path":"dataset_sage/audio/record_1731565381.wav"},"sentence":"确认","duration":5.25,"sentences":[{"start":0,"end":5.25,"text":"确认"}]}
+{"audio": {"path": "dataset_sage/train/record_1731578174.wav"}, "sentence": " Дякую. Дякую.", "duration": 32.0, "sentences": [{"start": 0, "end": 32.0, "text": " Дякую. Дякую."}]}
+{"audio": {"path": "dataset_sage/train/record_1731578210.wav"}, "sentence": " Thank you.", "duration": 29.98, "sentences": [{"start": 0, "end": 29.98, "text": " Thank you."}]}
+{"audio": {"path": "dataset_sage/train/record_1731578221.wav"}, "sentence": "你好 小莎你好 小莎", "duration": 3.54, "sentences": [{"start": 0, "end": 3.54, "text": "你好 小莎你好 小莎"}]}

@@ -44,6 +44,7 @@
 {"audio": {"path": "dataset_sage/test/record_1731486233.wav"}, "sentence": "我的两个注射器呢", "duration": 3.06, "sentences": [{"start": 0, "end": 3.06, "text": "我的两个注射器呢"}]}
 {"audio": {"path": "dataset_sage/test/record_1731486237.wav"}, "sentence": "我的试管呢我要试管呢", "duration": 5.58, "sentences": [{"start": 0, "end": 5.58, "text": "我的试管呢我要试管呢"}]}
 {"audio": {"path": "dataset_sage/test/record_1731486243.wav"}, "sentence": "我要的是注射器和输液袋输液袋啊输液袋", "duration": 7.140000000000001, "sentences": [{"start": 0, "end": 7.140000000000001, "text": "我要的是注射器和输液袋输液袋啊输液袋"}]}
-{"audio": {"path": "dataset_sage/test/record_1731486251.wav"}, "sentence": "我要的是输液袋跟注射器和试管", "duration": 5.08, "sentences": [{"start": 0, "end": 5.08, "text": "我要的是树叶袋跟注射器和宿泊"}]}
+{"audio": {"path": "dataset_sage/test/record_1731486251.wav"}, "sentence": "我要的是输液袋跟注射器和试管", "duration": 5.08, "sentences": [{"start": 0, "end": 5.08, "text": "我要的是输液袋跟注射器和试管"}]}
 {"audio": {"path": "dataset_sage/test/record_1731486258.wav"}, "sentence": "你別搞錯", "duration": 3.7, "sentences": [{"start": 1, "end": 3.7, "text": "你別搞錯"}]}
 {"audio": {"path": "dataset_sage/test/record_1731486263.wav"}, "sentence": "我需要十个试管,两个注射器,一个口罩", "duration": 7.0, "sentences": [{"start": 0, "end": 7.0, "text": "我需要十个试管,两个注射器,一个口罩"}]}
+{"audio":{"path":"dataset_sage/audio/record_1731565391.wav"},"sentence":"确认","duration":5.18,"sentences":[{"start":0,"end":5.18,"text":"确认"}]}

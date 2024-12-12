@@ -5,7 +5,8 @@ import os
 import torch
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline, AutoModelForCausalLM
 from utils.utils import print_arguments, add_arguments
-
+import warnings
+warnings.filterwarnings("ignore")
 parser = argparse.ArgumentParser(description=__doc__)
 add_arg = functools.partial(add_arguments, argparser=parser)
 add_arg("audio_dir",  type=str,  default="dataset_sage/val/", help="预测的音频文件夹路径")
