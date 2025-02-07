@@ -44,3 +44,5 @@
 {"audio": {"path": "dataset_sage/train/record_1731578174.wav"}, "sentence": " Дякую. Дякую.", "duration": 32.0, "sentences": [{"start": 0, "end": 32.0, "text": " Дякую. Дякую."}]}
 {"audio": {"path": "dataset_sage/train/record_1731578210.wav"}, "sentence": " Thank you.", "duration": 29.98, "sentences": [{"start": 0, "end": 29.98, "text": " Thank you."}]}
 {"audio": {"path": "dataset_sage/train/record_1731578221.wav"}, "sentence": "你好 小莎你好 小莎", "duration": 3.54, "sentences": [{"start": 0, "end": 3.54, "text": "你好 小莎你好 小莎"}]}
+{"audio": {"path": "dataset_sage/train/record_1733987115.wav"}, "sentence": "我现在已经更多了", "duration": 6.0, "sentences": [{"start": 0, "end": 6.0, "text": "我现在已经更多了"}]}
+{"audio": {"path": "dataset_sage/train/record_1733987167.wav"}, "sentence": "他這個會有信用嗎?現在開始了為什麼會有信用?", "duration": 9.66, "sentences": [{"start": 0, "end": 9.66, "text": "他這個會有信用嗎?現在開始了為什麼會有信用?"}]}
