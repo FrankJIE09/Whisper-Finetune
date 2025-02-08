@@ -9,7 +9,7 @@ import warnings
 warnings.filterwarnings("ignore")
 parser = argparse.ArgumentParser(description=__doc__)
 add_arg = functools.partial(add_arguments, argparser=parser)
-add_arg("audio_dir",  type=str,  default="dataset_sage/val/", help="预测的音频文件夹路径")
+add_arg("audio_dir",  type=str,  default="dataset/test/", help="预测的音频文件夹路径")
 add_arg("model_path",  type=str,  default="models_sage/whisper-tiny-finetune/", help="合并模型的路径，或者是huggingface上模型的名称")
 add_arg("use_gpu",     type=bool, default=True,      help="是否使用gpu进行预测")
 add_arg("language",    type=str,  default="chinese", help="设置语言，如果为None则预测的是多语言")

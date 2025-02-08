@@ -16,8 +16,8 @@ from utils.utils import print_arguments, add_arguments
 
 parser = argparse.ArgumentParser(description=__doc__)
 add_arg = functools.partial(add_arguments, argparser=parser)
-add_arg("test_data",   type=str, default="dataset_sage/test.json",            help="测试集的路径")
-add_arg("model_path",  type=str, default="models/whisper-tiny-finetune", help="合并模型的路径，或者是huggingface上模型的名称")
+add_arg("test_data",   type=str, default="dataset/val.json",            help="测试集的路径")
+add_arg("model_path",  type=str, default="models_sage_bottle/whisper-tiny-finetune", help="合并模型的路径，或者是huggingface上模型的名称")
 add_arg("batch_size",  type=int, default=16,        help="评估的batch size")
 add_arg("num_workers", type=int, default=8,         help="读取数据的线程数量")
 add_arg("language",    type=str, default="Chinese", help="设置语言，可全称也可简写，如果为None则评估的是多语言")

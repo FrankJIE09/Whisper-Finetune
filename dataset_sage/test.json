@@ -1,5 +1,5 @@
-{"audio": {"path": "dataset_sage/test/record_1731485951.wav"}, "sentence": "你好小飒我需要一个试管", "duration": 6.0600000000000005, "sentences": [{"start": 0, "end": 6.0600000000000005, "text": "你好小飒我需要一个试管"}]}
-{"audio": {"path": "dataset_sage/test/record_1731485960.wav"}, "sentence": "你好小飒我需要两个试管", "duration": 3.96, "sentences": [{"start": 0, "end": 3.96, "text": "你好小飒我需要两个试管"}]}
+{"audio": {"path": "dataset_sage/test/record_1731485951.wav"}, "sentence": "你好小飒我需要一个试管", "duration": 6.0600000000000005}
+{"audio": {"path": "dataset_sage/test/record_1731485960.wav"}, "sentence": "你好小飒我需要两个试管", "duration": 3.96}
 {"audio": {"path": "dataset_sage/test/record_1731485965.wav"}, "sentence": "你好小飒,我需要一个输液袋", "duration": 4.0, "sentences": [{"start": 0, "end": 4.0, "text": "你好小飒,我需要一个输液袋"}]}
 {"audio": {"path": "dataset_sage/test/record_1731485969.wav"}, "sentence": "你好小飒我需要两个输液袋", "duration": 5.44, "sentences": [{"start": 0, "end": 5.44, "text": "你好小飒我需要两个输液袋"}]}
 {"audio": {"path": "dataset_sage/test/record_1731485976.wav"}, "sentence": "你好小飒 我需要两个手套", "duration": 4.36, "sentences": [{"start": 0, "end": 4.36, "text": "你好小飒 我需要两个手套"}]}

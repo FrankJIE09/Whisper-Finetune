@@ -13,10 +13,10 @@ from utils.utils import print_arguments, make_inputs_require_grad, add_arguments
 
 parser = argparse.ArgumentParser(description=__doc__)
 add_arg = functools.partial(add_arguments, argparser=parser)
-add_arg("train_data",    type=str, default="dataset_sage/train.json",       help="训练数据集的路径")
-add_arg("test_data",     type=str, default="dataset_sage/test.json",        help="测试数据集的路径")
+add_arg("train_data",    type=str, default="dataset/train.json",       help="训练数据集的路径")
+add_arg("test_data",     type=str, default="dataset/test.json",        help="测试数据集的路径")
 add_arg("base_model",    type=str, default="openai/whisper-tiny",      help="Whisper的基础模型")
-add_arg("output_dir",    type=str, default="output_sage/",                  help="训练保存模型的路径")
+add_arg("output_dir",    type=str, default="output_sage_version2/",                  help="训练保存模型的路径")
 add_arg("warmup_steps",  type=int, default=5,      help="训练预热步数")
 add_arg("logging_steps", type=int, default=10,     help="打印日志步数")
 add_arg("eval_steps",    type=int, default=10,    help="多少步数评估一次")
